@@ -28,28 +28,28 @@ int main() {
                 if (numero1 >= 0 && numero2 >= 0) {
                 printf("Resultado de la suma: %d\n", sumar(numero1, numero2));
                 } else {
-                    printf("Error: los números deben ser >= 0.\n");
+                    printf("Error, los números deben ser >= 0.\n");
                 }
                 break;
             case 2:
                 if (numero1 >= 0 && numero2 >= 0) {
                 printf("Resultado de la resta: %d\n", restar(numero1, numero2));
                 } else {
-                    printf("Error: los números deben ser >= 0.\n");
+                    printf("Error, los números deben ser >= 0.\n");
                 }
                 break;
             case 3:
                 if (numero1 >= 0 && numero2 >= 0) {
                 printf("Resultado de la multiplicación: %d\n", multiplicar(numero1, numero2));
                 } else {
-                    printf("Error: los números deben ser >= 0.\n");
+                    printf("Error, los números deben ser >= 0.\n");
                 }
                 break;
             case 4:
                 if (numero2 != 0) {
                     printf("Resultado de la división: %f\n", dividir(numero1, numero2));
                 } else {
-                    printf("Error: no se puede dividir por cero.\n");
+                    printf("Error, no se puede dividir por cero.\n");
                 }
                 break;
             case 5:
